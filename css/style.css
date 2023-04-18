@@ -73,6 +73,21 @@
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+
+/* STICKY NAVIGATION */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.952);
+  z-index: 999;
+  height: 8rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  padding-top: 0;
+  padding-bottom: 0;
+}
 /* - *********************** */
 /* HERO SECTION */
 /* - *********************** */
